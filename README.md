@@ -2,18 +2,18 @@
 This project is for the purpose of an assignment to test capabilites and skills in regard to python, pytest and REST API
 
 Getting Started
-# Dependencies:
+# Dependencies
 python 3.x
 need to install packages to your python:
 pip install pytest
 pip install requests
 
-# Executing program:
+# Executing program
 need to Run with pytest command
 
-# Important Notes:
+# Important Notes
  - I used scope=class for the fixtures so that they don't have to run multiple times when there is no need.
- - I decided to divide the last test into multiple small ones to avoid having multiple assertions in one test which could lead to assertions not to be executed at all!
+ - I decided to divide the last test into multiple small ones to avoid having multiple assertions in one test which could lead to assertions not to be executed at all in case of failure.
  - error handling cases I covered:
     1)json parse issues
     2)issue in reading the api response
